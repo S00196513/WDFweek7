@@ -3,10 +3,10 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
-    color:navajowhite;
+    color:purple;
     border:1px solid blue;
     position:relative;
-    
+    border-radius: 5px;
 }
 header h1{
     float:right;
@@ -18,6 +18,7 @@ nav {
     position: absolute;
     bottom:0;
     width:100%;
+    border-radius: 5px;
 }
 nav ul{
 	text-align:center;
@@ -138,4 +139,87 @@ footer a{
 
 #active {
     background-color: darkseagreen;
+}
+
+#staff {
+    text-align: left;
+}
+#staff h2{
+    text-align: left;
+}
+
+#desert {
+    width:10em;
+    height:10em;
+    padding-right: 0.2em;
+    
+}
+
+#chocolate_link {
+    text-decoration: underline;
+    color: red;
+}
+
+.BackgroundImageB {
+    background-image: URL(../week6Images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border:3px;
+    border:2px;
+}
+
+.col_article {
+    	column-count:3;
+	column-rule:1px solid white;
+	column-gap:20px;
+	padding:2px;
+    
+}
+
+.BackgroundImageC {
+      background-image: URL(../week6Images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border:3px ;
+    border:2px;
+}
+
+.backgroundImageB {
+    background-image: url(../week6Images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px;
+    margin: 2px;
+}
+
+.backgroundImageC {
+        background-image: url(../week6Images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 2px solid black;
+    margin: 2px;
+}
+
+.backgroundImageE {
+      background-image: url(../week6Images/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 2px solid black;
+    margin: 2px;
+}
+
+.menu {
+    text-align: center;
+    
+    padding:20px;
+    margin:5px;
+}
+p{
+    color:white;
+    
 }
